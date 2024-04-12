@@ -1,60 +1,38 @@
-
-.mainContent{
-    display: flex;
-}
-.header{
-    height: 70px;
-    background-color: rgb(107, 103, 103);
-    z-index: 3;
-}
-.leftHand{
-    width: 40vw;
-    height: 100vh;
-}
-.backgroundImage{
-    width: 40vw;
-    height: 100vh;
-    position: absolute;
-}
-.backgroundText{
-
-    font-size: 70px;
-    font-family: whisper;
-    position: absolute;
-
-
-}
-#topText{
-    margin:200px 0 0 80px;
-}
-#bottomText{
-    bottom: 0;
-    margin: 0 0 200px 80px;
-
-}
-.rightHand{
-    width: 60vw;
-    background-color: rgb(175, 80, 80);
-    z-index: 1;
-}
-.signUp{
-    width: 500px;
-    margin:auto;
-    display: flex;
-    flex-direction: column;
-    height: 500px;
-    font-family: "Dancing Script", cursive;
-    font-size: 30px;
-}
-.formText{
-    text-align: center;
-    font-family: "Dancing Script", cursive;
-}
-input{
-    background-color: rgb(163, 149, 149);
-    height: 20px;
+body{
+    margin:0;
 }
 #heart{
-    height: 130px;
-    width: 120px
+    height: 60px;
+    width: 60px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+#backgroundImage{
+    height: 100vh;
+    width: 40vw;
+}
+.mainSection{
+    display: flex;
+}
+.leftSide{
+    position: relative;
+}
+.rightSide{
+    height: 100vh;
+    width: 60vw;
+    background-color: bisque;
+}
+.imageText{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    height: 50vh;
+    margin:0 auto;
+    top: 30vh;
+    left: 10vw
 }
