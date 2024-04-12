@@ -10,49 +10,55 @@ body{
     align-items: center;
     justify-content: center;
     font-size: 30px;
+    color:blanchedalmond;
+    background-color: rgb(32, 34, 34);
 }
 #backgroundImage{
     height: 100%;
     width: 40vw;
+
 }
 .mainSection{
     display: flex;
 }
 .leftSide{
-    position: relative;
+    display: flex;
+    justify-content: center;
 }
+
 .rightSide{
     height: 100;
     width: 60vw;
-    background-color: bisque;
+    background-color: rgb(12, 11, 11);
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 .imageText{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     position: absolute;
     height: 50vh;
-    margin:0 auto;
-    top: 30vh;
-    left: 10vw;
-    font-family: "Pacifico", cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Dancing Script", cursive;
+    color: rgb(247, 236, 236);;
 
 }
 .rightText{
     text-align: center;
     margin-top: 50px;
     font-family: "Dancing Script", cursive;
+    color:wheat
 
 }
 form{
     display: flex;
     flex-direction: column;
     margin-top: 100px;
-    font-family: "Lobster", sans-serif;
+    font-family: "Caveat", cursive;
     font-size: 25px;
+    color:wheat
 
 
 }
@@ -68,9 +74,14 @@ input{
   }
 
 input:focus{
-    border-color:rgb(80, 80, 185);
-    box-shadow: 5px 5px 5px rgb(83, 77, 77);
+    border-color:rgb(190, 190, 199);
+    box-shadow: 5px 5px 5px rgb(52, 69, 70);
 }
 input:invalid{
     border-color: rgb(168, 64, 64);
+}
+#submitButton{
+    margin-top:20px;
+    font-family: "Caveat", cursive;
+    font-size: 30px;
 }
