@@ -12,7 +12,7 @@ body{
     font-size: 30px;
 }
 #backgroundImage{
-    height: 100vh;
+    height: 100%;
     width: 40vw;
 }
 .mainSection{
@@ -22,7 +22,7 @@ body{
     position: relative;
 }
 .rightSide{
-    height: 100vh;
+    height: 100;
     width: 60vw;
     background-color: bisque;
     display: flex;
@@ -44,12 +44,16 @@ body{
 .rightText{
     text-align: center;
     margin-top: 50px;
+    font-family: "Dancing Script", cursive;
 
 }
 form{
     display: flex;
     flex-direction: column;
     margin-top: 100px;
+    font-family: "Lobster", sans-serif;
+    font-size: 25px;
+
 
 }
 input{
@@ -62,7 +66,11 @@ input{
     transition: 0.5s;
     outline: none;
   }
-  
-  input:focus {
-    border: 3px solid #555;
-  }
+
+input:focus{
+    border-color:rgb(80, 80, 185);
+    box-shadow: 5px 5px 5px rgb(83, 77, 77);
+}
+input:invalid{
+    border-color: rgb(168, 64, 64);
+}
