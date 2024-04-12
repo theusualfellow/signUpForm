@@ -5,6 +5,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lobster&display=swap" rel="stylesheet">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up page</title>
@@ -33,11 +40,11 @@
             
             <form action="post">
                 <label for="firstName">First Name</label>
-                <input type="text" id="firstName" name="firstName">
+                <input type="text" id="firstName" minlength="2" name="firstName">
                 <label for="age">Age</label>
                 <input type="number" name="age" id="age" min="18" max="100">
-                <label for="password">Password</label><input type="password" name="password" id="password">
-                <label for="confirmPassword">Confirm Password</label><input type="password" name="confirmPassword" id="confirmPassword">
+                <label for="password">Password</label><input type="password" minlength="8" name="password" id="password">
+                <label for="confirmPassword">Confirm Password</label><input type="password" minlength="8" name="confirmPassword" id="confirmPassword">
                 <label for="email">email</label><input type="email" name="email" id="email">
                 <button type="submit">Sign Up</button>
             </form>
