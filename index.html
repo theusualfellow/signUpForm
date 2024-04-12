@@ -1,66 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Whisper&display=swap" rel="stylesheet">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Whisper&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Sign-Up Form</title>
+    <title>Sign Up page</title>
 </head>
 <body>
     <div class="header">
-        <img src="heart.jpg" alt="heart" id="heart">
+        <img src="heart.png" alt="image of a heart" id="heart"><span>perfectmatch.com</span>
     </div>
-    <div class="mainContent">
-        <div class="leftHand">
-            <img src="love.jpg" alt="image of a balloon on blue background" class="backgroundImage">
-        
-            <h1 id="topText" class="backgroundText">Ready to find love?</h1>
-            <h1 id="bottomText" class="backgroundText">Sign up on the right</h1>
-        </div>
-        <div class="rightHand">
-            <div>
-                <h1 class="formText">Let's help you find the love of your life</h1>
-                <h1 class="formText">Please fill in the form below</h1>
-                <form action="submit" class="signUp">
-        
-                    <div>
-                        <label for="fullName">Fullname</label>
-                        <input type="text" id="fullName" name="fullName">
-                    </div>
-                    <div>
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email">
-                    </div>
-                    <div>
-                        <label for="dob">Date of Birth</label>
-                        <input type="date">
-                    </div>
-                    <div>
-                        <label for="password">Password</label>
-                        <input type="password">
-                    </div>
-                    <div>
-                        <label for="confirmPassword">Confirm Password</label>
-                        <input type="password">
-                    </div>
-                    <div>
-                        <label for="gender">Gender:
-                            <input type="radio" name="gender" id="gender">Male
-                            <input type="radio" name="gender" id="gender">Female
-                        </label>
-                    </div>
-                    <button type="submit">Sign Up</button>
-        
-                </form>
+
+    <div class="mainSection">
+
+        <div class="leftSide">
+            <div class="imageText">
+                <h1>Ready to find love?</h1>
+                <h1>Sign Up on the right</h1>
             </div>
+            <img src="love.jpg" alt="balloon on blue background" id="backgroundImage">
+        </div>
+        <div class="rightSide">
+
         </div>
     </div>
 </body>
