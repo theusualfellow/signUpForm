@@ -12,6 +12,8 @@ body{
     font-size: 30px;
     color:blanchedalmond;
     background-color: rgb(32, 34, 34);
+    font-family: "Caveat", cursive;
+
 }
 #backgroundImage{
     height: 100%;
@@ -77,11 +79,15 @@ input:focus{
     border-color:rgb(190, 190, 199);
     box-shadow: 5px 5px 5px rgb(52, 69, 70);
 }
-input:invalid{
+
+input:focus:invalid{
     border-color: rgb(168, 64, 64);
 }
+
 #submitButton{
     margin-top:20px;
     font-family: "Caveat", cursive;
     font-size: 30px;
+    padding: 10px;
+ 
 }
