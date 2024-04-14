@@ -5,14 +5,40 @@ body{
     height: 60px;
     width: 60px;
 }
-.header{
+
+.header, .mainSection, .leftSide, .rightSide, .imageText, form{
     display: flex;
+}
+
+.rightSide, .imageText, form{
+    flex-direction: column;
+}
+
+.header, .rightSide{
     align-items: center;
+}
+
+.imageText, .rightText{
+    font-family: "Dancing Script", cursive;
+
+}
+
+.rightText, form{
+    color:wheat
+
+}
+form, #submitButton,.header{
+    font-family: "Caveat", cursive;
+
+}
+.header,.leftSide,.imageText{
     justify-content: center;
+}
+
+.header{
     font-size: 30px;
     color:blanchedalmond;
     background-color: rgb(32, 34, 34);
-    font-family: "Caveat", cursive;
 
 }
 #backgroundImage{
@@ -20,49 +46,26 @@ body{
     width: 40vw;
 
 }
-.mainSection{
-    display: flex;
-}
-.leftSide{
-    display: flex;
-    justify-content: center;
-}
-
 .rightSide{
     height: 100;
     width: 60vw;
     background-color: rgb(12, 11, 11);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     
 }
 .imageText{
     position: absolute;
     height: 50vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-family: "Dancing Script", cursive;
     color: rgb(247, 236, 236);;
 
 }
 .rightText{
     text-align: center;
     margin-top: 50px;
-    font-family: "Dancing Script", cursive;
-    color:wheat
 
 }
 form{
-    display: flex;
-    flex-direction: column;
     margin-top: 100px;
-    font-family: "Caveat", cursive;
     font-size: 25px;
-    color:wheat
-
-
 }
 input{
     width: 100%;
@@ -86,7 +89,6 @@ input:focus:invalid{
 
 #submitButton{
     margin-top:20px;
-    font-family: "Caveat", cursive;
     font-size: 30px;
     padding: 10px;
  
