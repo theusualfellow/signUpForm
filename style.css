@@ -1,10 +1,6 @@
 body{
     margin:0;
 }
-#heart{
-    height: 60px;
-    width: 60px;
-}
 
 .header, .mainSection, .leftSide, .rightSide, .imageText, form{
     display: flex;
